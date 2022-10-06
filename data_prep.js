@@ -51,21 +51,4 @@ module.exports.cpa = function () {
   });
 };
 
-module.exports.highGPA = function () {
 
-  return new Promise((resolve, reject) => {
-
-    for (var randomvarname = 0; randomvarname < students.length; randomvarname++) 
-    {
-
-      var temp=0;
-      if (students[randomvarname].gpa >temp) 
-      {
-        temp= students[randomvarname].gpa;
-        
-      }
-    }
-    students.push(students[randomvarname]);
-    
-  });
-};
